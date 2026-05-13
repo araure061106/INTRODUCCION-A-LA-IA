@@ -1,14 +1,11 @@
 # Reporte Técnico: El Algoritmo de Recomendación de TikTok
 
-**Autor:** Estudiante de 1er año — Ingeniería en Inteligencia Artificial  
-**Fecha:** Mayo 2026  
-**Curso:** Fundamentos de IA
 
 ---
 
 ## Introducción
 
-TikTok es, a mayo de 2026, la plataforma de video corto más utilizada del mundo, con más de 1,500 millones de usuarios activos. Su éxito no se explica únicamente por el contenido: se explica por su algoritmo. A diferencia de YouTube o Instagram, TikTok no requiere que el usuario tenga seguidores ni historial previo para recibir contenido altamente relevante. El sistema puede "entender" los gustos de un usuario nuevo en menos de 15 minutos de uso. Este reporte analiza técnicamente cómo funciona ese sistema.
+TikTok es, a abril de 2026, la plataforma de video corto más utilizada del mundo, con más de 1,500 millones de usuarios activos. Su éxito no se explica únicamente por el contenido: se explica por su algoritmo. A diferencia de YouTube o Instagram, TikTok no requiere que el usuario tenga seguidores ni historial previo para recibir contenido altamente relevante. El sistema puede "entender" los gustos de un usuario nuevo en menos de 15 minutos de uso. Este reporte analiza técnicamente cómo funciona ese sistema.
 
 ---
 
@@ -58,7 +55,7 @@ El sistema también analiza el video en sí mismo:
 
 ---
 
-## 2. ¿Cómo genera recomendaciones? El proceso
+## 2. ¿Cómo genera recomendaciones? (El proceso)
 
 El sistema de recomendación de TikTok combina varias técnicas de Machine Learning en un *pipeline* de múltiples etapas.
 
@@ -139,4 +136,3 @@ El algoritmo de TikTok es, desde un punto de vista técnico, uno de los sistemas
 
 ---
 
-*Reporte elaborado para la asignatura Fundamentos de IA — Sesión 2*
