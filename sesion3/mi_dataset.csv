@@ -1,0 +1,19 @@
+marca,modelo,ram_gb,almacenamiento_gb,precio_usd,sistema_operativo,camara_mp
+Samsung,Galaxy A15,4,128,150,Android,50
+Samsung,Galaxy A35,6,128,220,Android,50
+Samsung,Galaxy S23,8,256,650,Android,50
+Xiaomi,Redmi Note 13,6,128,180,Android,108
+Xiaomi,Redmi Note 13 Pro,8,256,250,Android,200
+Xiaomi,Poco X5,6,128,200,Android,48
+iPhone,iPhone 11,4,64,380,iOS,12
+iPhone,iPhone 12,4,128,480,iOS,12
+iPhone,iPhone 14,6,128,750,iOS,12
+Motorola,Moto G54,8,256,170,Android,50
+Motorola,Moto G84,12,256,230,Android,50
+Motorola,Edge 40,8,256,350,Android,50
+Huawei,Y9s,6,128,160,Android,48
+Huawei,Nova 11i,8,128,190,Android,108
+Tecno,Spark 20,8,128,120,Android,64
+Tecno,Camon 20,8,256,160,Android,64
+Nokia,G42,6,128,110,Android,50
+Realme,C55,8,256,145,Android,64
