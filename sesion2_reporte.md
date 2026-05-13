@@ -1,13 +1,10 @@
 # Reporte Técnico: El Algoritmo de Recomendación de TikTok
 
 
----
-
 ## Introducción
 
 TikTok es, a abril de 2026, la plataforma de video corto más utilizada del mundo, con más de 1,500 millones de usuarios activos. Su éxito no se explica únicamente por el contenido: se explica por su algoritmo. A diferencia de YouTube o Instagram, TikTok no requiere que el usuario tenga seguidores ni historial previo para recibir contenido altamente relevante. El sistema puede "entender" los gustos de un usuario nuevo en menos de 15 minutos de uso. Este reporte analiza técnicamente cómo funciona ese sistema.
 
----
 
 ## 1. ¿Qué datos recopila el sistema?
 
@@ -53,7 +50,6 @@ El sistema también analiza el video en sí mismo:
 | Compartir | Explícita | Alto |
 | Búsqueda de términos | Explícita | Medio-alto |
 
----
 
 ## 2. ¿Cómo genera recomendaciones? (El proceso)
 
@@ -92,7 +88,6 @@ Un ranking puro puede generar un feed monótono (todo del mismo creador o tema).
 
 Cada interacción del usuario actualiza el perfil en tiempo real. TikTok usa una arquitectura de **aprendizaje en línea** (*online learning*): el modelo se ajusta con cada sesión, no en ciclos diarios. Esto explica por qué el algoritmo "aprende rápido" los gustos del usuario.
 
----
 
 ## 3. ¿Cuál es el objetivo que optimiza?
 
@@ -104,7 +99,6 @@ En la práctica, el proxy que optimiza es el **tiempo de visualización ponderad
 
 Esto tiene implicaciones importantes: el algoritmo no necesariamente recomienda el contenido más verdadero, más útil o más diverso. Recomienda el contenido que *engancha*, aunque ese engagement venga del conflicto, la indignación o el entretenimiento compulsivo.
 
----
 
 ## 4. Un riesgo ético del sistema
 
@@ -118,13 +112,11 @@ Estudios académicos han demostrado que cuentas nuevas que muestran interés en 
 
 El problema ético central es que **TikTok conoce este efecto** y, sin embargo, el sistema continúa operando con las mismas métricas de optimización porque cambiarlas reduciría el engagement total.
 
----
 
 ## 5. Opinión personal
 
 El algoritmo de TikTok es, desde un punto de vista técnico, uno de los sistemas de recomendación más sofisticados y eficaces jamás construidos. La velocidad con la que aprende preferencias y la precisión de sus predicciones son genuinamente impresionantes como ingeniería. Sin embargo, estudiar cómo funciona me generó una incomodidad que no tenía antes: cuando siento que el feed "me entiende", en realidad estoy siendo modelado como una función de probabilidad cuyo único objetivo es que yo no cierre la app. Esa asimetría de información, donde el sistema sabe exactamente qué me va a enganchar y yo no tengo visibilidad sobre ese proceso, me parece uno de los problemas éticos más relevantes que deberemos resolver como ingenieros de IA. Creo que diseñar sistemas de recomendación que optimicen por bienestar del usuario en lugar de por tiempo de sesión no es solo un ideal moral: es el tipo de problema técnico más interesante y desafiante que enfrenta nuestra generación.
 
----
 
 ## Fuentes
 
